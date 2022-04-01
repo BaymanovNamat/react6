@@ -5,7 +5,7 @@ function Alert(props) {
   };
 
   const inputCallback = (event) => {
-    alert(buttonCallback.value);
+    alert(event.target.value);
   };
 
 

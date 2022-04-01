@@ -1,4 +1,6 @@
 import Alert from "./components/Alert/Alert";
+import Example from "./components/Example/Example";
+import Math from "./components/Math/Math";
 import Paragraph from "./components/Paragraph/Paragraph";
 
 function App() {
@@ -48,6 +50,23 @@ function App() {
         <Alert>
         
         </Alert>
+      </div>
+
+
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+      <div>
+        <Example/>
+      </div>
+
+        <br/>
+        <br/>
+        <br/>
+
+      <div>
+        <Math/>
       </div>
     </div>
   );
